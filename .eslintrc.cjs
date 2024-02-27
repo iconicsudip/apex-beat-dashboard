@@ -18,6 +18,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'react/prop-types': 'off',
+    'react/jsx-key': 'off',
     // 'react/react-in-jsx-scope': 'off',
     // 'react/jsx-uses-react': 'off',
     'no-unused-vars': 'off',
