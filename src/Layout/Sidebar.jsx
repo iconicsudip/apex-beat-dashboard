@@ -16,11 +16,12 @@ function Sidebar() {
   return (
     <div className="bg-white xl:shadow-lg py-6 px-4 xl:h-screen w-full border-r border-border overflow-auto">
       <Link to="/">
-        <img
+{/*         <img
           src="/images/logo.png"
           alt="logo"
           className="w-2/4 h-12 ml-4 object-contain"
-        />
+        /> */}
+        <h3>Logo</h3>
       </Link>
       <div className="flex-colo gap-2 mt-12">
         {MenuDatas.map((item, index) => (
